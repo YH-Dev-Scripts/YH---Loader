@@ -28,7 +28,7 @@ Tab:CreateButton({
       pcall(function() Window:Destroy() end)
       
       task.spawn(function()
-          loadstring(game:HttpGet("https://pastefy.app/5blpeW77/raw"))()
+          loadstring(game:HttpGet("https://raw.githubusercontent.com/YH-Dev-Scripts/YH---Uruz-/refs/heads/main/script.lua"))()
       end)
    end,
 })
